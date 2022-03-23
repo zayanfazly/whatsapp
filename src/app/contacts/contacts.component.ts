@@ -14,7 +14,7 @@ export class ContactsComponent implements OnInit {
   url = "assets/json/contacts.json";
   contacts: any = [];
 
-  @Output() chatEvent = new EventEmitter<string>();
+  @Output() chatEvent = new EventEmitter<object>();
 
   constructor(private contactService: ContactsService) { }
 
@@ -22,8 +22,11 @@ export class ContactsComponent implements OnInit {
     this.getContactData();
   }
 
-  showChat(){
-    this.chatEvent.emit("true");
+  showChat(cName:string, cImage:string){
+    this.chatEvent.emit({
+      contactName: cName,
+      contactImage: cImage
+    });
   }
 
   onSearch(){

@@ -2,61 +2,73 @@
     {
       "name": "Susan Bowers",
       "lastChat": "Hi, how are you?",
-      "imageUrl": "https://i.pravatar.cc/150?u=1"
+      "imageUrl": "https://i.pravatar.cc/150?u=1",
+      "read": false
     },
     {
       "name": "Kellie Long",
       "lastChat": "Hi, how are you?",
-      "imageUrl": "https://i.pravatar.cc/150?u=2"
+      "imageUrl": "https://i.pravatar.cc/150?u=2",
+      "read": true
     },
     {
       "name": "Madeline Miles",
       "lastChat": "Hi, how are you?",
-      "imageUrl": "https://i.pravatar.cc/150?u=3"
+      "imageUrl": "https://i.pravatar.cc/150?u=3",
+      "read": false
     },
     {
-      "name": "Susan Bowers",
+      "name": "Leonard Eldridge",
       "lastChat": "Hi, how are you?",
-      "imageUrl": "https://i.pravatar.cc/150?u=4"
+      "imageUrl": "https://i.pravatar.cc/150?u=4",
+      "read": true
     },
     {
-      "name": "Kellie Long",
+      "name": "Carlos M. Banks",
       "lastChat": "Hi, how are you?",
-      "imageUrl": "https://i.pravatar.cc/150?u=5"
+      "imageUrl": "https://i.pravatar.cc/150?u=5",
+      "read": false
     },
     {
-      "name": "Madeline Miles",
+      "name": "Kevin Lamberton",
       "lastChat": "Hi, how are you?",
-      "imageUrl": "https://i.pravatar.cc/150?u=6"
+      "imageUrl": "https://i.pravatar.cc/150?u=6",
+      "read": false
     },
     {
-      "name": "Susan Bowers",
+      "name": "Tania S. Wood",
       "lastChat": "Hi, how are you?",
-      "imageUrl": "https://i.pravatar.cc/150?u=7"
+      "imageUrl": "https://i.pravatar.cc/150?u=7",
+      "read": false
     },
     {
-      "name": "Kellie Long",
+      "name": "Steve Jaeger Long",
       "lastChat": "Hi, how are you?",
-      "imageUrl": "https://i.pravatar.cc/150?u=8"
-    },
-    {
-      "name": "Madeline Miles",
-      "lastChat": "Hi, how are you?",
-      "imageUrl": "https://i.pravatar.cc/150?u=9"
-    },
-    {
-      "name": "Susan Bowers",
-      "lastChat": "Hi, how are you?",
-      "imageUrl": "https://i.pravatar.cc/150?u=10"
-    },
-    {
-      "name": "Kellie Long",
-      "lastChat": "Hi, how are you?",
-      "imageUrl": "https://i.pravatar.cc/150?u=11"
+      "imageUrl": "https://i.pravatar.cc/150?u=8",
+      "read": false
     },
     {
       "name": "Madeline Miles",
       "lastChat": "Hi, how are you?",
-      "imageUrl": "https://i.pravatar.cc/150?u=12"
+      "imageUrl": "https://i.pravatar.cc/150?u=9",
+      "read": false
+    },
+    {
+      "name": "Linda Bowers",
+      "lastChat": "Hi, how are you?",
+      "imageUrl": "https://i.pravatar.cc/150?u=10",
+      "read": true
+    },
+    {
+      "name": "Horton Long",
+      "lastChat": "Hi, how are you?",
+      "imageUrl": "https://i.pravatar.cc/150?u=11",
+      "read": false
+    },
+    {
+      "name": "Perez Miles",
+      "lastChat": "Hi, how are you?",
+      "imageUrl": "https://i.pravatar.cc/150?u=12",
+      "read": true
     }
   ]

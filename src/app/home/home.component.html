@@ -22,7 +22,7 @@
                         </svg>
                     <span class="">Make calls from desktop with WhatsApp for Windows. <a href="https://www.whatsapp.com/download" target="_blank">Get it here</a>.</span></div>
             </div>
-            <app-chat-area *ngIf="showChat"></app-chat-area>
+            <app-chat-area *ngIf="showChat" [contactName]="contactName" [contactImage]="contactImage"></app-chat-area>
 
         </div>
     </div>

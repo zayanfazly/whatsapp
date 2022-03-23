@@ -22,3 +22,29 @@
     right: -19px;
     top: 6px;
   }
+
+  div.menu {
+    background-color: #f0f2f5;
+    width: 100%;
+    height: 65px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #dbdbdb;
+    svg {
+        width: 5%;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    p-avatar {
+        padding-left: 15px;
+        width: 7.5%;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    div {
+        width: 82.5%;
+    }
+}

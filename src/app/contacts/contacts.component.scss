@@ -38,7 +38,10 @@
             }
             span.chat {
                 font-size: 14px;
-                color: #b9b9b9;
+                color: #acacac;
+                display: flex;
+                align-items: center;
+                gap: 0.35rem;
             }
             &:hover{
                 background-color: #f5f5f5;
@@ -50,4 +53,7 @@
 hr {
     color: white;
     opacity: 0.25;
+}
+:host .svgBlue {
+    color: #53bdeb;
 }
