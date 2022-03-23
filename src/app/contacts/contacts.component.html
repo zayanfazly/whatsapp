@@ -7,8 +7,8 @@
     </div>
     <hr>
     <div class="contact-list">
-        <div class="contacts" *ngFor="let item of contacts">
-            <div (click)="showChat(item.name, item.imageUrl)">
+        <div class="contacts" *ngFor="let item of contacts" (click)="showChat(item.name, item.imageUrl)">
+            <div>
                 <p-avatar image="{{item.imageUrl}}" size="large" shape="circle"></p-avatar>
             </div>
             <div>
