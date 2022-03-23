@@ -32,8 +32,18 @@
             div:nth-child(2) {
                 width: 85%;
                 padding-bottom: 0;
+                position: relative;
                 hr {
                     margin: 0;
+                }
+                .time {
+                    position: absolute;
+                    right: 10px;
+                    top: 17.5px;
+                    font-size: 12px;
+                    opacity: 0.5;
+                    width: 25%;
+                    text-align: right;
                 }
             }
             span.chat {
