@@ -1,13 +1,14 @@
 .box {
-    width: 300px;
+    width: fit-content;
+    max-width: 60%;
     margin: 15px 30px 15px auto;
-    background: #f9ffe3;
+    background: #dcffdc;
     padding: 20px;
     color: rgb(53, 53, 53);
     font-family: arial;
     position: relative;
     box-shadow: 1px 1px 1px #ebebeb;
-    border-radius: 10px;
+    border-radius: 10px 0px 10px 10px;
   }
   
   .sb1:before {
@@ -15,12 +16,31 @@
     width: 0px;
     height: 0px;
     position: absolute;
-    border-left: 10px solid #f9ffe3;
+    border-left: 10px solid #dcffdc;
     border-right: 10px solid transparent;
-    border-top: 10px solid #f9ffe3;
+    border-top: 10px solid #dcffdc;
     border-bottom: 10px solid transparent;
     right: -19px;
-    top: 6px;
+    top: 0px;
+  }
+
+  .box2 {
+    margin: 15px auto 15px 30px;
+    background: #f6ffd7;
+    border-radius: 0px 10px 10px 10px;
+  }
+
+  .sb2:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #f9ffe3;
+    border-top: 10px solid #f9ffe3;
+    border-bottom: 10px solid transparent;
+    left: -19px;
+    top: 0px;
   }
 
   div.menu {
@@ -46,5 +66,27 @@
     }
     div {
         width: 82.5%;
+    }
+}
+
+div.menu-bottom {
+    background-color: #f0f2f5;
+    width: 67.5%;
+    height: 65px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 3.75vh;
+    svg {
+        width: 5%;
+        &:hover{
+            cursor: pointer;
+        }
+        color: #5f5f5f;
+    }
+    input {
+        width: 85%;
+        border: 0px;
     }
 }
