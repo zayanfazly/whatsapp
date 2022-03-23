@@ -1,0 +1,75 @@
+.home-body {
+    background-color: #dbdddc;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    .static-bg {
+        background-color: #00a884;
+        position: absolute;
+        z-index: 1;
+        height: 17.5%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .main-content {
+        width: 90vw;
+        height: 90vh;
+        background-color: white;
+        position: relative;
+        z-index: 3;
+        margin: auto;
+        top: 5vh;
+        display: flex;
+        .left-menu{
+            width: 25%;
+        }
+        .chat-area{
+            width: 75%;
+            background-color: #f8f8f8;
+            .welcome {
+                margin: auto;
+                width: 50%;
+                padding-top: 10%;
+                text-align: center;
+                img {
+                    max-width: 250px;
+                }
+                hr {
+                    color: rgb(255, 255, 255);
+                    margin: 25px 0;
+                }
+                .tool-text {
+                    width: 100%;
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: #afafaf;
+                    a {
+                        color: #007e62;
+                        text-decoration: none;
+                    }
+                }
+                p {
+                    font-size: 14px;
+                    color:#585858;
+                }
+                .h1 {
+                    font-weight: 300;
+                }
+            }
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .chat-area{
+        display: none;
+        width: 0px;
+    }
+    .home-body .main-content .left-menu {
+        width: 100%;
+        
+    }
+  }

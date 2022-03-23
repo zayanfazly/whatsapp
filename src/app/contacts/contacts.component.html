@@ -1,0 +1,21 @@
+<div class="contacts-main">
+    <div class="search">
+        <span class="p-input-icon-left">
+            <i class="pi pi-search"></i>
+            <input type="text" pInputText placeholder="Search or start new chat" [(ngModel)]="searchText" (keyup)="onSearch()" />
+        </span>
+    </div>
+    <hr>
+    <div class="contact-list">
+        <div class="contacts" *ngFor="let item of contacts" (click)="showChat()">
+            <div>
+                <p-avatar image="{{item.imageUrl}}" size="large" shape="circle"></p-avatar>
+            </div>
+            <div>
+                <p>{{item.name}} <br><span class="chat">{{item.lastChat}}</span></p>
+                <hr>
+            </div>
+        </div>
+        
+    </div>
+</div>

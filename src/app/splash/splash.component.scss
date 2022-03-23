@@ -1,0 +1,39 @@
+.loading{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+
+    .w-encrypt{
+        font-size: 14px;
+        color: rgb(184, 184, 184);
+    }
+
+    .w-text{
+        font-size: 20px;
+        color: rgb(88, 88, 88);
+        font-weight: 400;
+        padding: 10px;
+    }
+}
+
+progress {
+    background-color: rgb(236, 236, 236);
+    border-radius: 25px;
+    height: 3px;
+    width: 50%;
+    border: none;
+    margin-bottom: 25px;
+    margin-top: 40px;
+    &::-moz-progress-bar, -webkit-progress-value{ 
+        background: #25d366; 
+        border-radius: 25px; 
+        transition: ease-in-out;
+    }
+}
+
+.splash-screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
